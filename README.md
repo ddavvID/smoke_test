@@ -68,6 +68,12 @@ While automation is commonly used for regression testing, it can also be applied
 - **Manual Smoke Testing:** Suitable for smaller projects or when the test cases are not repetitive.
 - **Automated Smoke Testing:** Ideal for larger projects or when frequent builds are deployed, as it saves time and ensures consistency.
 
+### Smoke testing cycle
+Below flow chart shows how Smoke Testing is executed. Once the build is deployed in QA and, smoke tests are passed we proceed for functional testing. If the smoke test fails, we exit testing until the issue in the build is fixed.
+
+![image](https://github.com/user-attachments/assets/b47588ea-89e0-4ff9-888e-c8cb8b38c922)
+
+
 ## Advantages of Smoke Testing
 
 Smoke Testing offers several benefits that contribute to the efficiency and quality of the software development process. Here are the key advantages:
