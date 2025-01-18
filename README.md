@@ -1,21 +1,19 @@
-# smoke_test
-
 # What is Smoke Testing?
 
-Smoke Testing is a software testing process used to determine whether a newly deployed software build is stable enough for further testing. It acts as a preliminary check for the QA team to decide whether to proceed with more in-depth testing. This type of testing involves running a minimal set of tests on each build to verify basic functionalities. Smoke Testing is also referred to as “Build Verification Testing” or “Confidence Testing.”
+Smoke Testing is a <span style="color:blue">software testing process</span> used to determine whether a newly deployed software build is stable enough for further testing. It acts as a preliminary check for the QA team to decide whether to proceed with more in-depth testing. This type of testing involves running a minimal set of tests on each build to verify basic functionalities. Smoke Testing is also referred to as “<span style="color:green">Build Verification Testing</span>” or “<span style="color:green">Confidence Testing</span>.”
 
 In simpler terms, smoke testing ensures that the critical features of the software are functioning correctly and that there are no major issues (showstoppers) in the build being tested. It serves as a quick and focused regression test of the core functionality, providing confidence that the product is ready for more comprehensive testing. By identifying significant flaws early, smoke testing helps avoid wasting time and resources on testing a build that is fundamentally broken.
 
 ## When Do We Perform Smoke Testing?
 
-Smoke Testing is conducted whenever new functionalities are developed and integrated into the existing build that is deployed in the QA or staging environment. Its primary purpose is to verify whether all critical functionalities are working as expected.
+<span style="color:red">Smoke Testing</span> is conducted whenever new functionalities are developed and integrated into the existing build that is deployed in the QA or staging environment. Its primary purpose is to verify whether all critical functionalities are working as expected.
 
 ## How Smoke Testing Works
 
 In this testing method, the development team deploys the build to the QA environment. The QA team then selects a subset of test cases and executes them on the build. These test cases focus on critical functionalities to identify any major issues in the build. If the tests pass, the QA team proceeds with more detailed functional testing. However, if any test fails, the build is returned to the development team for fixes. Smoke Testing is repeated whenever there are changes to the build to ensure its stability.
 
 **Example:**
-If a new "Registration" button is added to the login window and the build is deployed with this new code, smoke testing is performed to verify that the button works as intended and does not break the existing functionality.
+If a new "<span style="color:purple">Registration</span>" button is added to the login window and the build is deployed with this new code, smoke testing is performed to verify that the button works as intended and does not break the existing functionality.
 
 ## Purpose of Smoke Testing
 
@@ -106,4 +104,4 @@ Below is an example of smoke test cases for a web application, including test sc
 
 **Sign Out Functionality:**
 - **Purpose:** To confirm that users can sign out of the application.
-- **Result:** The test fails because the user is unable to sign out, suggesting a problem with the sign-out feature.
+- **Result:** The test fails because the
